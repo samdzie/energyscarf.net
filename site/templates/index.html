@@ -2,7 +2,17 @@
 
 {% block content %}
 <h1 class="title">
-  This is my blog made with Zola.
+  energyscarf
 </h1>
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+<p>Welcome to my website! Still under construction, but here are some links!</p>
+<h2>Other Sites</h2>
+<ul>
+  <li><a href="https://bsky.app/profile/energyscarf.pmd.social">Bluesky</a></li>
+  <li><a href="https://energyscarf.tumblr.com">Tumblr</a></li>
+  <li><a href="https://backloggery.com/energyscarf">Backloggery</a></li>
+</ul>
+<h2>Site Navigation</h2>
+<ul>
+  <li><a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a></li>
+</ul>
 {% endblock content %}
