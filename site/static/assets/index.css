@@ -4,10 +4,6 @@
 
 body {
     background-color: #4F7942;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
 }
 
 .layout {
@@ -17,11 +13,28 @@ body {
         "header header"
         "sidebar main"
         "footer footer"
-        / 200px 1fr;
+        / 1fr 3fr;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+@media (max-width: 800px) {
+    .layout {
+        grid-template:
+            "header"
+            "sidebar"
+            "main"
+            "footer";
+    }
 }
 
 header {
     grid-area: header;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
 }
 
 aside {
