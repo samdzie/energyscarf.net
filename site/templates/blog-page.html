@@ -6,4 +6,5 @@
 </h1>
 <p class="subtitle"><strong>{{ page.date }}</strong></p>
 {{ page.content | safe }}
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Back</a></p>
 {% endblock content %}
