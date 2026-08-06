@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content_header %}
+  <h1>{{ page.title | safe }}</h1>
+  <span class="date">Last updated: {{ page.date | date(format="%B %e, %Y") }}</span>
+{% endblock content_header %}
+{% block content %}
+  {{ page.content | safe }}
+  {% if page.ancestors | length > 1 %}
+  {% set parent_section = page.ancestors | last %}
+  <p><a href="{{ get_section(path=parent_section) | get(key='permalink') }}">Back</a></p>
+  {% endif %}
+{% endblock content %}

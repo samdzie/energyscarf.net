@@ -1,6 +1,5 @@
 +++
 title = "About Me"
-template = "article.html"
 date = 2026-07-31
 +++
 

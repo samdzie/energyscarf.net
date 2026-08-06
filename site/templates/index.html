@@ -1,16 +1,4 @@
 {% extends "base.html" %}
-
 {% block content %}
-<p>Welcome to my website! Still under construction, but here are some links!</p>
-<h2>Other Sites</h2>
-<ul>
-  <li><a href="https://bsky.app/profile/energyscarf.pmd.social">Bluesky</a></li>
-  <li><a href="https://energyscarf.tumblr.com">Tumblr</a></li>
-  <li><a href="https://www.furaffinity.net/user/energyscarf/">Fur Affinity</a></li>
-  <li><a href="https://backloggery.com/energyscarf">Backloggery</a></li>
-</ul>
-<img src="/assets/c-estro.gif" />
-<img src="/assets/c-furry.png" />
-<img src="/assets/c-paws.jpg" />
-<img src="/assets/c-queer.jpg" />
+{{ section.content | safe }}
 {% endblock content %}

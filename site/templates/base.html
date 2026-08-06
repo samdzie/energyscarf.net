@@ -1,10 +1,11 @@
+{% set content_section = get_section(path="_index.md") %}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>energyscarf</title>
+  <title>{{ config.title }}</title>
   <link rel="stylesheet" type="text/css" href="/assets/index.css" />
   <link rel="icon" href="/assets/favicon.png" />
 </head>
@@ -12,20 +13,30 @@
 <body>
   <div class="layout">
     <header>
-      <a href="/"><img src="/assets/energyscarf_banner.png" alt="energyscarf" /></a>
+      <a href="{{ content_section.permalink | safe }}">
+        <img src="/assets/energyscarf_banner.png" alt="energyscarf" width="700" height="350" />
+      </a>
     </header>
 
     <aside>
       <nav class="sidebar-nav box">
-        <a href="/">Home</a>
-        <a href="{{ get_url(path='@/about.md') }}">About</a>
-        <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
+        <a href="{{ content_section.permalink | safe }}">{{ content_section.title }}</a>
+        {% for page in content_section.pages %}
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        {% endfor %}
+        {% for subsection in content_section.subsections %}
+        {% set section = get_section(path=subsection) %}
+        <a href="{{ section.permalink | safe}}">{{ section.title }}</a>
+        {% endfor %}
       </nav>
     </aside>
 
     <main class="box">
       <section class="section">
-        {% block content %} {% endblock content %}
+        {% block content_header %}
+        {% endblock content_header %}
+        {% block content %}
+        {% endblock content %}
       </section>
     </main>
 
