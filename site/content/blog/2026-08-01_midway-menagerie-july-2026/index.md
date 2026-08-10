@@ -49,7 +49,7 @@ As an aside, I've recently begun to feel that describing our scene as the "furry
 
 [^furcode]: At the time, the code I generated for myself was `FFS3f A-- C- D H+ M- P+ R T+++ W- Z Sm RLU a13 cn++ d-- e-- f-- h* i+++ j+ p sm--`. See [here](https://mj.ucw.cz/furry/) for a decoder!
 
-[^mlp]: I started following MLP in fall 2012. I considered myself a brony for maybe a year after that, but eventually drifted away as I started feeling weird about the fandom (it turned out to be the racism and misogyny). [This](/assets/broney_in_2012.jpg) "tfw you are a broney in 2012" meme ended up being <em>extremely</em> accurate and thankfully I went down the good path.[^footnoteception]
+[^mlp]: I started following MLP in fall 2012. I considered myself a brony for maybe a year after that, but eventually drifted away as I started feeling weird about the fandom (it turned out to be the racism and misogyny). [This](broney_in_2012.jpg) "tfw you are a broney in 2012" meme ended up being <em>extremely</em> accurate and thankfully I went down the good path.[^footnoteception]
 
 [^footnoteception]: According to [Know Your Meme](https://knowyourmeme.com/memes/dramatic-crossroads), this was apparently the origin of the crossroads meme. Also, if we've gotten to a footnote within a footnote have we officially strayed too far off topic?
 
