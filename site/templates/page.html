@@ -12,4 +12,9 @@
   {% set parent_section = page.ancestors | last %}
   <p><a href="{{ get_section(path=parent_section) | get(key='permalink') }}">Back</a></p>
   {% endif %}
+  <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+  <hyvor-talk-comments
+    website-id="15836"
+    page-id=""
+  ></hyvor-talk-comments>
 {% endblock content %}
