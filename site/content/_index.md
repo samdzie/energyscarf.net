@@ -11,6 +11,11 @@ Welcome to my website! Still under construction, but here are some links!
 - [Fur Affinity](https://furaffinity.net/user/energyscarf/)
 - [Backloggery](https://backloggery.com/energyscarf)
 
+## Contact
+
+- [enii@energyscarf.net](mailto:enii@energyscarf.net)
+- Telegram: [@energyscarf](https://t.me/energyscarf)
+
 ![powered by estrogen](/assets/c-estro.gif)
 ![furry yay! owo](/assets/c-furry.png)
 ![made with MY OWN TWO PAWS](/assets/c-paws.jpg)
