@@ -1,20 +1,24 @@
 {% extends "base.html" %}
 {% block meta_vars %}
-  {% set title = page.title %}
+  {% set section = page.ancestors | last %}
+  {% set title = page.title ~ " | " ~ get_section(path=section) | get(key='title') %}
 {% endblock meta_vars %}
 {% block content_header %}
   <h1>{{ page.title | safe }}</h1>
+  {% if page.date %}
   <span class="date">Last updated: {{ page.date | date(format="%B %e, %Y") }}</span>
+  {% endif %}
 {% endblock content_header %}
 {% block content %}
   {{ page.content | safe }}
   {% if page.ancestors | length > 1 %}
-  {% set parent_section = page.ancestors | last %}
-  <p><a href="{{ get_section(path=parent_section) | get(key='permalink') }}">Back</a></p>
+  <p><a href="{{ get_section(path=section) | get(key='permalink') }}">Back</a></p>
   {% endif %}
   <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+  {% if not page.extra.disable_comments %}
   <hyvor-talk-comments
     website-id="15836"
     page-id=""
   ></hyvor-talk-comments>
+  {% endif %}
 {% endblock content %}

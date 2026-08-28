@@ -1,3 +1,22 @@
+{% component gallery() %}
+<div class="gallery">
+  {{ body }}
+</div>
+{% endcomponent %}
+
+{% component galleryItem(path, date, caption) %}
+  {% set image = resize_image(path=path, width=180, height=320, op="fit") %}
+  <figure>
+    <a href="{{ get_url(path=path) }}" target="_blank">
+      <img src="{{ image.url }}" />
+    </a>
+    <figcaption>
+      <span class="date">{{ date }}</span>
+      <p>{{ caption }}</p>
+    </figcaption>
+  </figure>
+{% endcomponent %}
+
 {% block meta_vars %}{% endblock meta_vars %}
 {% set content_section = get_section(path="_index.md") %}
 <!DOCTYPE html>
