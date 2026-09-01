@@ -14,8 +14,8 @@
   {% if page.ancestors | length > 1 %}
   <p><a href="{{ get_section(path=section) | get(key='permalink') }}">Back</a></p>
   {% endif %}
-  <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
   {% if not page.extra.disable_comments %}
+  <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
   <hyvor-talk-comments
     website-id="15836"
     page-id=""

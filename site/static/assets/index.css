@@ -101,12 +101,13 @@ footer {
 .gallery figure {
     display: grid;
     grid-gap: 10px;
-    grid-template: "photo caption" / 180px auto;
+    grid-template: "photo caption" / max-content auto;
     margin: 10px 0;
 }
 
 .gallery img {
     grid-area: photo;
+    max-width: 40vw;
 }
 
 .gallery figcaption {
