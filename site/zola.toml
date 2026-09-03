@@ -17,3 +17,6 @@ theme = "catppuccin-mocha"
 
 [extra]
 # Put all your custom variables here
+social_icon = "/assets/social_icon.png"
+social_icon_type = "image/png"
+social_icon_alt = "The star-shaped tail of a Shinx"

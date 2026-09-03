@@ -1,4 +1,8 @@
 {% extends "base.html" %}
+{% block meta_vars %}
+    {% set title = config.title %}
+    {% set description = config.description %}
+{% endblock meta_vars %}
 {% block content %}
 {{ section.content | safe }}
 {% endblock content %}

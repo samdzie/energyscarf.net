@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block meta_vars %}
+  {% set this = page | default(value=section) %}
   {% set section = page.ancestors | last %}
   {% set title = page.title ~ " | " ~ get_section(path=section) | get(key='title') %}
+  {% set description = (this.description or config.description) | markdown(inline=true) | striptags %}
 {% endblock meta_vars %}
 {% block content_header %}
   <h1>{{ page.title | safe }}</h1>

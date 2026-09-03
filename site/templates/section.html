@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block meta_vars %}
   {% set title = section.title %}
+  {% set description = section.description %}
 {% endblock meta_vars %}
 {% block content_header %}
   <h1>{{ section.title | safe }}</h1>
