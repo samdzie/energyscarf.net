@@ -1,6 +1,6 @@
 +++
 title = "Midway Menagerie: July 2026"
-date = 2026-08-01
+date = 2026-08-01T02:02:00-04:00
 +++
 
 Hello! This is the first post that I've written for this blog, so welcome and enjoy as I figure this out. :3

@@ -1,6 +1,6 @@
 +++
 title = "Call for Submissions! September 2026 Midway Menagerie - \"Identity and the Self\""
-date = 2026-09-01
+date = 2026-09-01T00:00:00-04:00
 +++
 
 Hello hello! This is a call for submissions for the September 2026 edition of Midway Menagerie, the furry blogging carnival! If you're unfamiliar with Midway Menagerie, see the home page [here](https://lark.gay/furry-carnival/) for details.

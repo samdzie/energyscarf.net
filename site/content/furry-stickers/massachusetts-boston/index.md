@@ -1,6 +1,6 @@
 +++
 title = "Boston, Massachusetts"
-date = 2026-08-31
+date = 2026-08-31T19:33:00-04:00
 +++
 {% <gallery> %}
     {{ <galleryItem path="@/furry-stickers/massachusetts-boston/20260823_041302827.jpg" date="August 23, 2026" caption="Bay Village" /> }}

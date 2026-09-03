@@ -1,6 +1,6 @@
 +++
 title = "Launching the Furry Sticker Photo Gallery!"
-date = 2026-08-31
+date = 2026-08-31T23:41:00-04:00
 +++
 
 *This post was written for the [August 2026 edition](https://foxriot.com/writing/midway-menagerie-aug-call-for-submissions.html) of [Midway Menagerie](https://lark.gay/furry-carnival), a furry blogging carnival.*

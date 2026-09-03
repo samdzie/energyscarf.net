@@ -1,6 +1,6 @@
 +++
 title = "Charlottesville, Virginia"
-date = 2026-08-31
+date = 2026-08-31T19:33:00-04:00
 +++
 
 {% <gallery> %}
