@@ -1,4 +1,21 @@
 {% extends "base.html" %}
+
+{% component date_line(datetime, label = "") %}
+{% if label != "" %}
+  {% set prefix = "(" ~ label ~ ": " %}
+  {% set suffix = ")" %}
+{% else %}
+  {% set prefix = "" %}
+  {% set suffix = "" %}
+{% endif %}
+{% if datetime | date(format="%z") == "-0400" %}
+  {% set time_zone = "EDT" %}
+{% else %}
+  {% set time_zone = "EST" %}
+{% endif %}
+<span class="date">{{ prefix }}{{ datetime | date(format="%B %-d, %Y, %-I:%M%P " ~ time_zone) }}{{ suffix }}</span>
+{% endcomponent %}
+
 {% block meta_vars %}
   {% set this = page | default(value=section) %}
   {% set section = page.ancestors | last %}
@@ -8,12 +25,10 @@
 {% block content_header %}
   <h1>{{ page.title | safe }}</h1>
   {% if page.date %}
-  {% if page.date | date(format="%z") == "-0400" %}
-    {% set time_zone = "EDT" %}
-  {% else %}
-    {% set time_zone = "EST" %}
+    {{ <date_line datetime={page.date} /> }}
   {% endif %}
-  <span class="date">Last updated: {{ page.date | date(format="%B %-d, %Y, %-I:%M%P " ~ time_zone) }}</span>
+  {% if page.updated %}
+    {{ <date_line datetime={page.updated} label="Updated" /> }}
   {% endif %}
 {% endblock content_header %}
 {% block content %}

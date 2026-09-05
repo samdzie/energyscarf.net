@@ -1,6 +1,7 @@
 +++
 title = "Call for Submissions! September 2026 Midway Menagerie - \"Identity and the Self\""
 date = 2026-09-01T00:00:00-04:00
+updated = 2026-09-05T02:54:00-04:00
 +++
 
 Hello hello! This is a call for submissions for the September 2026 edition of Midway Menagerie, the furry blogging carnival! If you're unfamiliar with Midway Menagerie, see the home page [here](https://lark.gay/furry-carnival/) for details.
@@ -14,3 +15,5 @@ This month's theme is "identity and the self". Here are some sample prompts to g
 While written blog posts are the typical response format, participants are encouraged to submit in whichever format they feel drawn to! (e.g., audio, video, games/interactive media, poetry, music, etc.)
 
 Post your submission somewhere on the Internet and send me the link, either using the contact information on my [home page](/) or as a comment on this page. I'd also be happy to help with brainstorming or reviewing your submission if you'd like! And if you'd prefer for me to host your submission on my website directly, feel free to ask!
+
+**Deadline for submission is September 30, 2026!** I'll post a roundup within the first few days of October with links to everyone's submissions.
