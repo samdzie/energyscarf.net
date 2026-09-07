@@ -1,9 +1,14 @@
 +++
 title = "Somerville, Massachusetts"
 date = 2026-08-31T19:33:00-04:00
+updated = 2026-09-07T09:47:00-04:00
 +++
 
 {% <gallery> %}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260902_210943693.jpg" date="September 2, 2026" caption="Davis Square" /> }}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260901_205801508.jpg" date="September 1, 2026" caption="Davis Square" /> }}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260830_210706254.jpg" date="August 30, 2026" caption="Community Path" /> }}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260830_204817485.jpg" date="August 30, 2026" caption="Community Path" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260823_145546046.jpg" date="August 23, 2026" caption="Davis Square" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260730_223824599.jpg" date="July 30, 2026" caption="Davis Square" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-somerville/20260625_173437885.jpg" date="June 25, 2026" caption="Davis Square" /> }}

@@ -1,8 +1,11 @@
 +++
 title = "Boston, Massachusetts"
 date = 2026-08-31T19:33:00-04:00
+updated = 2026-08-07T09:34:00-04:00
 +++
 {% <gallery> %}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-boston/20260902_004215991.jpg" date="September 1, 2026" caption="The Esplanade" />}}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-boston/20260901_235318947.jpg" date="September 1, 2026" caption="The Esplanade" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-boston/20260823_041302827.jpg" date="August 23, 2026" caption="Bay Village" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-boston/20260809_151113167.jpg" date="August 9, 2026" caption="Outside City Hall" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-boston/20260624_232650079.jpg" date="June 24, 2026" caption="The Esplanade" /> }}

@@ -1,9 +1,13 @@
 +++
 title = "Cambridge, Massachusetts"
 date = 2026-08-31T19:33:00-04:00
+updated = 2026-09-07T09:40:00-04:00
 +++
 
 {% <gallery> %}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-cambridge/20260904_050714202.jpg" date="September 4, 2026" caption="Sonia" /> }}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-cambridge/20260902_000737736.jpg" date="September 1, 2026" caption="Harvard Bridge" /> }}
+    {{ <galleryItem path="@/furry-stickers/massachusetts-cambridge/20260901_234623837.jpg" date="September 1, 2026" caption="Longfellow Bridge" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-cambridge/20260826_224331248.jpg" date="August 26, 2026" caption="Porter Square" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-cambridge/20260813_235505665.jpg" date="August 13, 2026" caption="Harvard Yard" /> }}
     {{ <galleryItem path="@/furry-stickers/massachusetts-cambridge/20260802_023859892.jpg" date="August 1, 2026" caption="Central Square" /> }}
