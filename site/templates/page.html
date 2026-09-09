@@ -19,7 +19,11 @@
 {% block meta_vars %}
   {% set this = page | default(value=section) %}
   {% set section = page.ancestors | last %}
-  {% set title = page.title ~ " | " ~ get_section(path=section) | get(key='title') %}
+  {% if page.ancestors | length > 1 %}
+    {% set title = page.title ~ " | " ~ get_section(path=section) | get(key='title') %}
+  {% else %}
+    {% set title = page.title %}
+  {% endif %}
   {% set description = (this.description or config.description) | markdown(inline=true) | striptags %}
 {% endblock meta_vars %}
 {% block content_header %}
