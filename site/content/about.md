@@ -1,6 +1,6 @@
 +++
 title = "About Me"
-date = 2026-08-01T02:17:00-04:00
+updated = 2026-08-01T02:17:00-04:00
 +++
 
 - Enii
@@ -37,3 +37,6 @@ date = 2026-08-01T02:17:00-04:00
 - [Melody & Co.](https://melody.fyi/)
 
 <!-- TODO: Make blinkie for this site -->
+
+## Legal
+- **Font:** Playpen Sans ([license](/assets/fonts/playpen-sans/OFL.txt))

@@ -4,4 +4,4 @@ sort_by = "date"
 generate_feeds = true
 +++
 
-[Atom feed](atom.xml)
+🛜 [Atom feed](atom.xml)

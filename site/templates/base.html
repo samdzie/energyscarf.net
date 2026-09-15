@@ -51,12 +51,13 @@
   <div class="layout">
     <header>
       <a href="{{ content_section.permalink | safe }}">
-        <img src="/assets/energyscarf_banner.png" alt="energyscarf" width="700" height="350" />
+        <img src="/assets/banner.png" alt="eniiplace" width="1000" height="150" />
       </a>
     </header>
 
     <aside>
-      <nav class="sidebar-nav box">
+      <img src="/assets/sorbet_pfp.png" alt="Sorbet icon" title="Sorbet icon by kitsuakari" />
+      <nav class="sidebar-nav">
         <a href="{{ content_section.permalink | safe }}">{{ content_section.title }}</a>
         {% for page in content_section.pages %}
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
@@ -67,18 +68,21 @@
         {% endfor %}
         <a href="https://radio.energyscarf.net/public/radio_eniiwhere">Radio Eniiwhere</a>
       </nav>
+      <img src="/assets/enii_pfp.png" alt="Enii icon" title="Enii icon by azurityarts" />
     </aside>
 
-    <main class="box">
-      <section class="section">
+    <main>
+      <div class="contentHeader">
         {% block content_header %}
         {% endblock content_header %}
+      </div>
+      <div>
         {% block content %}
         {% endblock content %}
-      </section>
+      </div>
     </main>
 
-    <footer class="box">© 2026 energyscarf <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></footer>
+    <footer>© 2026 energyscarf <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></footer>
   </div>
 </body>
 

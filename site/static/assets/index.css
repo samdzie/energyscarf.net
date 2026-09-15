@@ -1,40 +1,68 @@
+@font-face {
+    font-family: "Playpen Sans";
+    src: url("/assets/fonts/playpen-sans/PlaypenSans-VariableFont_wght.ttf");
+}
+
 :root {
-    --primary-bg-color: #4F7942;
-    --secondary-bg-color: #EDC9AF;
+    /* Base colors */
+    --sorbet-brown: #a65b27;
+    --sorbet-honey: #ffe8d8;
+    --sorbet-green: #a3ff78;
+    --sorbet-pink: #ffc5f8;
+    --old-primary-bg-color: #4F7942;
+    --old-secondary-bg-color: #EDC9AF;
+    --pantone-pink: #d74894;
+    --light-pink: #ffdee4;
+    --some-brown: #80461B;
+
+    /* Colors by use */
+    --primary-bg-color: var(--sorbet-pink);
+    --secondary-bg-color: var(--sorbet-honey);
+    --interior-border-color: var(--sorbet-brown);
+    --header-bg-color: var(--sorbet-brown);
     --primary-highlight-color: #80461B;
+    --link-color: hsl(from var(--sorbet-pink) h s 60% / alpha);
+    --link-hover-color: hsl(from var(--link-color) h s 40% / alpha);
+
+    /* Other definitions */
+    --layout-width: 1000px;
+
+    font-family: "Playpen Sans";
 }
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
     background-color: var(--primary-bg-color);
-    font-family: 'Courier New', Courier, monospace;
-}
+    background-image: url("/assets/paw_tile.png");
 
-body a {
-    color: var(--primary-highlight-color);
-    text-decoration: none;
-}
 
-body a:hover {
-    color: var(--primary-bg-color);
+    a {
+        color: var(--link-color);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--link-hover-color);
+    }
 }
 
 .layout {
     display: grid;
-    grid-gap: 10px;
     grid-template:
         "header header"
         "sidebar main"
         "footer footer"
         / 1fr 4fr;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: var(--layout-width);
+    background-color: var(--secondary-bg-color);
+    border: 5px solid var(--interior-border-color);
 }
 
-@media (width < 800px) {
+@media (width < 1000px) {
     .layout {
         grid-template:
             "header"
@@ -47,6 +75,10 @@ body a:hover {
 header {
     grid-area: header;
     text-align: center;
+
+    width: 100%;
+    height: 160px;
+    background-color: pink;
 }
 
 header img {
@@ -56,27 +88,63 @@ header img {
 
 aside {
     grid-area: sidebar;
+    background-color: var(--sorbet-brown);
+
+    nav {
+        padding-left: 10px;
+    }
+
+    a {
+        color: var(--sorbet-green);
+        padding: 2px;
+        display: block;
+        margin: 0.5em 0;
+        transition: 0.2s;
+    }
+
+    a::before {
+        content: "► ";
+    }
+
+    a:hover {
+        color: hsl(from var(--sorbet-green) h s 40% / alpha);
+        padding-left: 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
 
 main {
     grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
+
+main div {
+    padding: 0px 20px;
 }
 
 footer {
     grid-area: footer;
+    padding: 10px;
+    background-color: var(--sorbet-brown);
+    color: var(--sorbet-honey);
+
+    a {
+        color: var(--sorbet-green);
+    }
+
+    a:hover {
+        color: hsl(from var(--sorbet-green) h s 40% / alpha);
+    }
 }
 
 .wrapper {
     display: flex;
     margin: auto;
     max-width: 800px;
-}
-
-.box {
-    background-color: var(--secondary-bg-color);
-    border: 3px solid var(--primary-highlight-color);
-    border-radius: 5px;
-    padding: 20px;
 }
 
 .container {
@@ -87,11 +155,9 @@ footer {
     flex: auto;
 }
 
-.sidebar-nav a {
-    padding: 2px;
-    display: block;
-    margin: 0.5em 0;
-    text-align: center;
+.contentHeader {
+    background: var(--header-bg-color);
+    color: var(--sorbet-honey);
 }
 
 .date {

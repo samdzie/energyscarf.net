@@ -13,7 +13,7 @@ Welcome to my website! Still under construction, but here are some links!
 
 ## Contact
 
-- [enii@energyscarf.net](mailto:enii@energyscarf.net)
+- Email: [enii@energyscarf.net](mailto:enii@energyscarf.net)
 - Telegram: [@energyscarf](https://t.me/energyscarf)
 
 ![powered by estrogen](/assets/c-estro.gif)

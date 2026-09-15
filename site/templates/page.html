@@ -13,7 +13,7 @@
 {% else %}
   {% set time_zone = "EST" %}
 {% endif %}
-<span class="date">{{ prefix }}{{ datetime | date(format="%B %-d, %Y, %-I:%M%P " ~ time_zone) }}{{ suffix }}</span>
+<p><span class="date">{{ prefix }}{{ datetime | date(format="%B %-d, %Y, %-I:%M%P " ~ time_zone) }}{{ suffix }}</span></p>
 {% endcomponent %}
 
 {% block meta_vars %}

@@ -2,6 +2,9 @@
 {% block meta_vars %}
     {% set description = config.description %}
 {% endblock meta_vars %}
+{% block content_header %}
+    <h1>{{ section.title | safe }}</h1>
+{% endblock content_header %}
 {% block content %}
 {{ section.content | safe }}
 {% endblock content %}
