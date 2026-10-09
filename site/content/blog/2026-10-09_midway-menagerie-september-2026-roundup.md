@@ -1,6 +1,7 @@
 +++
 title = "Roundup: September 2026 Midway Menagerie - \"Identity and the Self\""
 date = 2026-10-09T01:24:00-04:00
+updated = 2026-10-09T10:58:00-04:00
 +++
 
 Here is the list of submissions for the [September 2026 edition](/blog/midway-menagerie-september-2026-call-for-submissions) of [Midway Menagerie](https://lark.gay/furry-carnival), a furry blogging carnival. September's theme was "Identity and the Self".
@@ -19,7 +20,9 @@ Here is the list of submissions for the [September 2026 edition](/blog/midway-me
 	- "Later that night I float backwards in the pool. The con has reserved the entire pool deck and there are fursuiters in the water. A scene DJ is blaring a happy hardcore remix of the *Hampster Dance*, and there's that weird sped-up Roger Miller sample, an echo of the fox movie of my childhood, bouncing down the tunnel of the internet and off the hotel walls and into the desert sky. The stupidest possible golden record."
 - In my submission, ["Contemplating Therianthropy"](/blog/contemplating-therianthropy/), I explore my relationship with humanity and recount a number of memories in which imagining myself as or being referred to as another species brought me comfort.
 	- "I have a distinct memory of standing in my family's backyard late one night watching the trees sway in the cold autumn wind and envisioning myself as a hawk, hunkering down in the branches. At some point, I snapped out of my daydream and realized that this fantasy could never be realized. I was stuck in my human body and no one was coming to rescue me from dreary reality."
+- In ["on furry identity and posthumanism"](https://anchovie.fish/blog/2026-09-28), anchovie shares the history behind hir fursonas Kuri, anchovie, and Node. shi reflects on their evolution as it relates to hir exploration of hir own identity, and shares hir thoughts on furry as posthumanism.
+	- "in this sense, the act of creating a fursona is innately posthumanist to me. just as in real life, we want others to perceive us as we choose to represent ourselves - not as whatever they happen to latch onto first. i'm foremost a Furry and a Maker and a Designer, not an Asian-American human woman. i want to be judged on my personality, actions, and contributions to my community. a fursona immediately breaks a lot of assumptions about me as a human and substitutes them with those of another species. we can't escape our humanity - these substitute assumptions are still deeply rooted in our species' biased perception of our fellow earthly cohabitants, as previously stated. but it's still an expansion of one's worldview; a blend of human and nonhuman attributes that encourages us to think of our world as an interconnected sum of cross-influence rather than a collection of silos."
 
-October's theme is "Furry Dreams", hosted by Anchovie. The call for submissions page may be found [here](https://anchovie.fish/blog/2026-09-25). Please consider submitting a response, we'd love to hear your thoughts!
+October's theme is "Furry Dreams", hosted by anchovie. The call for submissions page may be found [here](https://anchovie.fish/blog/2026-09-25). Please consider submitting a response, we'd love to hear your thoughts!
 
 Thank you to all contributors for participating! See you next time.
