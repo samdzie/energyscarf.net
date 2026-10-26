@@ -20,3 +20,4 @@ Welcome to my website! Still under construction, but here are some links!
 ![furry yay! owo](/assets/c-furry.png)
 ![made with MY OWN TWO PAWS](/assets/c-paws.jpg)
 ![you're telling me a queer coded this](/assets/c-queer.jpg)
+[![please play dog online.](/assets/button_dol.webp)](https://dogonline.net/dog/Maddiewaddie)
